@@ -1,0 +1,19 @@
+{
+  "name": "server_setup_guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasBosch/Server_setup_guide.git"
+  },
+  "author": "Andreas Bosch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreasBosch/Server_setup_guide/issues"
+  },
+  "homepage": "https://github.com/AndreasBosch/Server_setup_guide#readme"
+}
