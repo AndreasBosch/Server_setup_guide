@@ -60,13 +60,18 @@ yum install nodejs
 yum install npm
 npm install -g n
 ```
+_Hvis de overstående installationer ikke fungerer så kør denne syntax først for at opdatere node_
+```
+sudo npm config set strict-ssl false
+```  
 ### Opdatering af Node.js:
+
 ```
 n lts
 n
 ```
 ### Herefter vil det være nødvendigt at genstarte din PuTTY linux box
-
+### udover at genstarte putty skal serveren slukkes og tændes igen inden på DigitalOcean
 ## PM2
 ### Syntax:
 ```
@@ -90,6 +95,8 @@ git config --global user.email "din@email.dk"
 ```
 nano ~/.gitconfig
 ```
+
+
 * Efter alle disse moduler er blevet installeres skal der oprettes et nøglesæt for at kunne forbinde din Server til Github.
 ### Opret nøglesæt
 ```
